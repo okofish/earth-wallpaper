@@ -1,0 +1,21 @@
+{
+  "name": "earth-wallpaper",
+  "version": "1.0.0",
+  "description": "Set the latest image from the NASA EPIC camera onboard the NOAA DSCOVR spacecraft as your macOS wallpaper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "earth-wallpaper": "./bin.js"
+  },
+  "author": "Jesse Friedman <jesse@jesse.ws> (https://jesse.ws/)",
+  "license": "ISC",
+  "dependencies": {
+    "osascript-promise": "^1.0.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1",
+    "rimraf": "^2.5.4",
+    "yargs": "^6.6.0"
+  }
+}
